@@ -1,0 +1,151 @@
+2022-03-03 00:17:12.245090 : 
+                             
+                             
+2022-03-03 00:17:12.245090 : ====== WebDriver manager ======
+                             
+2022-03-03 00:17:12.264084 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:17:12.264084 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:17:12.329121 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:17:21.951218 : nenasle se exponea banner
+2022-03-03 00:17:22.009199 : gridy jdou videt
+2022-03-03 00:17:23.742644 : gridy jdou videt
+2022-03-03 00:17:23.788629 : gridy jdou videt
+2022-03-03 00:17:23.800625 : gridy jdou videt
+2022-03-03 00:17:23.807623 : gridy jdou videt
+2022-03-03 00:17:23.815620 : gridy jdou videt
+2022-03-03 00:17:23.822617 : gridy jdou videt
+2022-03-03 00:17:23.830614 : gridy jdou videt
+2022-03-03 00:17:23.838613 : gridy jdou videt
+2022-03-03 00:17:23.846610 : gridy jdou videt
+2022-03-03 00:17:23.853607 : gridy jdou videt
+2022-03-03 00:17:23.860605 : gridy jdou videt
+2022-03-03 00:17:23.868603 : gridy jdou videt
+2022-03-03 00:17:23.875601 : gridy jdou videt
+2022-03-03 00:17:23.882599 : gridy jdou videt
+2022-03-03 00:17:23.889596 : gridy jdou videt
+2022-03-03 00:17:23.897594 : gridy jdou videt
+2022-03-03 00:17:23.904591 : gridy jdou videt
+2022-03-03 00:17:23.912588 : gridy jdou videt
+2022-03-03 00:17:23.920586 : gridy jdou videt
+2022-03-03 00:17:23.927584 : gridy jdou videt
+2022-03-03 00:17:23.935582 : gridy jdou videt
+2022-03-03 00:17:23.943579 : gridy jdou videt
+2022-03-03 00:17:23.950576 : gridy jdou videt
+2022-03-03 00:17:23.998561 : content jdou videt
+2022-03-03 00:17:24.006558 : content jdou videt
+2022-03-03 00:17:24.013556 : content jdou videt
+2022-03-03 00:17:24.020554 : content jdou videt
+2022-03-03 00:17:24.029551 : content jdou videt
+2022-03-03 00:17:24.037549 : content jdou videt
+2022-03-03 00:17:24.045546 : content jdou videt
+2022-03-03 00:17:24.053544 : content jdou videt
+2022-03-03 00:17:24.060542 : content jdou videt
+2022-03-03 00:17:24.068539 : content jdou videt
+2022-03-03 00:17:24.075536 : content jdou videt
+2022-03-03 00:17:24.083534 : content jdou videt
+2022-03-03 00:17:24.090532 : content jdou videt
+2022-03-03 00:17:24.097529 : content jdou videt
+2022-03-03 00:17:24.106527 : content jdou videt
+2022-03-03 00:17:24.114524 : content jdou videt
+2022-03-03 00:17:24.121521 : content jdou videt
+2022-03-03 00:17:24.130520 : content jdou videt
+2022-03-03 00:17:24.138518 : content jdou videt
+2022-03-03 00:17:24.146513 : content jdou videt
+2022-03-03 00:17:24.154512 : content jdou videt
+2022-03-03 00:17:24.161509 : content jdou videt
+2022-03-03 00:17:24.169506 : content jdou videt
+2022-03-03 00:17:24.176504 : content jdou videt
+2022-03-03 00:17:26.338136 : 
+                             
+                             
+2022-03-03 00:17:26.338136 : ====== WebDriver manager ======
+                             
+2022-03-03 00:17:26.385119 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:17:26.386119 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:17:26.473179 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:17:41.887176 : 
+                             
+                             
+2022-03-03 00:17:41.887176 : ====== WebDriver manager ======
+                             
+2022-03-03 00:17:41.907170 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:17:41.907170 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:17:41.965169 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:17:51.289282 : nenasle se exponea banner
+2022-03-03 00:17:53.553788 : 
+                             
+                             
+2022-03-03 00:17:53.553788 : ====== WebDriver manager ======
+                             
+2022-03-03 00:17:53.573782 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:17:53.573782 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:17:53.632763 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:18:01.446558 : nenasle se exponea banner
+2022-03-03 00:18:06.376781 : 
+                             
+                             
+2022-03-03 00:18:06.377781 : ====== WebDriver manager ======
+                             
+2022-03-03 00:18:06.423733 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:18:06.424735 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:18:06.493099 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:18:14.944552 : nenasle se exponea banner
+2022-03-03 00:18:23.167857 : 
+                             
+                             
+2022-03-03 00:18:23.167857 : ====== WebDriver manager ======
+                             
+2022-03-03 00:18:23.219808 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:18:23.219808 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:18:23.281788 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
+2022-03-03 00:18:32.253009 : benefit item
+2022-03-03 00:18:32.261007 : benefit item
+2022-03-03 00:18:32.268005 : benefit item
+2022-03-03 00:18:32.275002 : benefit item
+2022-03-03 00:18:32.299994 : benefit item
+2022-03-03 00:18:32.306992 : benefit item
+2022-03-03 00:18:32.314990 : benefit item
+2022-03-03 00:18:32.449946 : grind container
+2022-03-03 00:18:32.457944 : grind container
+2022-03-03 00:18:32.465942 : grind container
+2022-03-03 00:18:32.473939 : grind container
+2022-03-03 00:18:32.481937 : grind container
+2022-03-03 00:18:32.489934 : grind container
+2022-03-03 00:18:32.496931 : grind container
+2022-03-03 00:18:32.504929 : grind container
+2022-03-03 00:18:32.514926 : grind container
+2022-03-03 00:18:32.521923 : grind container
+2022-03-03 00:18:32.530921 : grind container
+2022-03-03 00:18:32.537918 : grind container
+2022-03-03 00:18:32.545916 : grind container
+2022-03-03 00:18:32.553913 : grind container
+2022-03-03 00:18:32.561911 : grind container
+2022-03-03 00:18:36.489869 : 
+                             
+                             
+2022-03-03 00:18:36.489869 : ====== WebDriver manager ======
+                             
+2022-03-03 00:18:36.528855 : Current google-chrome version is 98.0.4758
+                             
+2022-03-03 00:18:36.528855 : Get LATEST chromedriver version for 98.0.4758 google-chrome
+                             
+2022-03-03 00:18:36.587335 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\98.0.4758.102\chromedriver.exe] found in cache
+                             
