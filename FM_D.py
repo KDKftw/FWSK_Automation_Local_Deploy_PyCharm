@@ -1,5 +1,4 @@
-from selenium.common.exceptions import NoSuchElementException, TimeoutException, ElementNotInteractableException
-from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support.wait import WebDriverWait
 from to_import import acceptConsent, URL_fmExotika, sendEmail, setUp, tearDown
 import time
@@ -43,6 +42,8 @@ class TestFMexotika_D(unittest.TestCase):
             msg = "Problem s FM - zajezdy se neukazuji " + url
             sendEmail(msg)
 
+        assert zajezdyFMsingle.is_displayed() == True
+
         try:
             rozbal = self.driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
             wait.until(EC.visibility_of(rozbal))
@@ -75,4 +76,4 @@ class TestFMexotika_D(unittest.TestCase):
             msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu ve FM " + url
             sendEmail(msg)
 
-        
+        assert rozbalenyZajezd.is_displayed() == True

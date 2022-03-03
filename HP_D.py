@@ -39,6 +39,7 @@ class TestHP_D(unittest.TestCase):
             msg = "Problem na HP s bannery " + url
             sendEmail(msg)
 
+        assert bannerSingle.is_displayed() == True
         time.sleep(1.5)
 
         try:
@@ -62,23 +63,5 @@ class TestHP_D(unittest.TestCase):
             msg = "Problem na HP s nej. nabidky LM " + url
             sendEmail(msg)
 
-        self.driver.get(URL_faq)
+        assert nejnabidkyLMsingle.is_displayed() == True
 
-        try:
-            faqSingle = self.driver.find_element_by_xpath("//*[@class='f_faq-item']")
-            faqAll = self.driver.find_elements_by_xpath("//*[@class='f_faq-item']")
-            if faqSingle.is_displayed():
-                for WebElement in faqAll:
-                    jdouvidet = WebElement.is_displayed()
-                    assert jdouvidet==True
-                    if jdouvidet == True:
-                        pass
-            else:
-                url = self.driver.current_url
-                msg = "Problem FAQ " + url
-                sendEmail(msg)
-
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "Problem FAQ " + url
-            sendEmail(msg)
