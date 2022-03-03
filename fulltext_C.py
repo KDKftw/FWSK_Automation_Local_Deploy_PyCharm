@@ -22,12 +22,12 @@ class Test_Fulltext_C(unittest.TestCase):
         tearDown(self)
 
     def test_fulltext_naseptavac(self):
-        wait = WebDriverWait(self.driver, 25)
+        wait = WebDriverWait(self.driver, 35)
         poziceQueryItem = 0
         for _ in queryList:
             self.driver.get(URL)
 
-            if poziceQueryItem==0:
+            if poziceQueryItem == 0:
                 acceptConsent(self.driver)
                 self.driver.maximize_window()
             else:
@@ -36,40 +36,56 @@ class Test_Fulltext_C(unittest.TestCase):
             FTlupa = self.driver.find_element_by_xpath("//*[@class='f_anchor f_icon f_icon--magnifier']")
             FTlupa.click()
             inputBox = self.driver.find_element_by_xpath("//*[@class='f_input-item j_input']")
-            #inputBox.send_keys(queryList[poziceQueryItem])
+            # inputBox.send_keys(queryList[poziceQueryItem])
             wait.until(EC.visibility_of(inputBox)).send_keys(queryList[poziceQueryItem])
             time.sleep(2)
             # inputBox.send_keys(Keys.ENTER)
             print(queryList[poziceQueryItem].upper())
-            poziceQueryItem = poziceQueryItem+1
+            poziceQueryItem = poziceQueryItem + 1
 
-
-            #if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
-            #if hotelDlazdice != 0:
+            # if self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']").isDisplayed()==True:
+            # if hotelDlazdice != 0:
 
             try:
                 wait.until(EC.visibility_of(self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")))
                 try:
 
-                    hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
-                    #wait.until(EC.visibility_of(hotelDlazdice)).click()
+                    # hotelDlazdice = self.driver.find_element_by_xpath("//*[@class='f_tileGrid-item']")
+                    hotelDlazdice = self.driver.find_element_by_xpath(
+                        "//*[@class='f_tile f_tile--tour']")  ##work around na EW
+                    # wait.until(EC.visibility_of(hotelDlazdice)).click()
                     hotelDlazdice.click()
-                    #hotelDlazdice.click()
+                    # hotelDlazdice.click()
+                    currentUrl = self.driver.current_url
+                    print("hote dlazdice klik")
+                    assert currentUrl != URL
+                    testOK_asserted = True
+                except NoSuchElementException:
+                    print("first no such ele except")
+                    testOK_asserted = False
+                    pass
+            except NoSuchElementException:
+                testOK_asserted = False
+                pass
+
+            if testOK_asserted == False:
+                try:
+                    #prvniItem =
+                    wait.until(EC.visibility_of(self.driver.find_elements_by_xpath("//*[@class='f_item']")[0])).click()
+                    # prvniItem[0].click()
+                    print("last no such ele except")
                     currentUrl = self.driver.current_url
                     assert currentUrl != URL
+                    response = requests.get(currentUrl)
+                    assert response.status_code == 200
+
                 except NoSuchElementException:
+                    print("first no such ele except")
                     pass
-
-            except NoSuchElementException:
-                prvniItem = self.driver.find_elements_by_xpath("//*[@class='f_item']")
-                wait.until(EC.visibility_of(prvniItem[0])).click()
-                #prvniItem[0].click()
-
                 currentUrl = self.driver.current_url
                 assert currentUrl != URL
-                response = requests.get(currentUrl)
-                assert response.status_code == 200
-            #else:
+            else:
+                pass
 
     def test_fulltext_results_status_check(self):
         wait = WebDriverWait(self.driver, 13)
