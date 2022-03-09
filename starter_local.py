@@ -63,4 +63,5 @@ if __name__ == '__main__':
     runner = HtmlTestRunner.HTMLTestRunner(log=True, verbosity=2, output='report', title='Test report', report_name='report',
                             open_in_browser=True, description="HTMLTestReport")
 
+
     runner.run(suite())
