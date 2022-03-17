@@ -7,7 +7,9 @@ from selenium.webdriver.support import expected_conditions as EC
 
 def groupSearch_D(self, driver):
     wait = WebDriverWait(self.driver, 150000)
+    driver.implicitly_wait(100)
     wait.until(EC.visibility_of(driver.find_element_by_xpath("//*[@class='f_teaser-item']")))
+
     teaserItems = driver.find_elements_by_xpath("//*[@class='f_teaser-item']")
     try:
         for WebElement in teaserItems:
@@ -33,6 +35,7 @@ def groupSearch_D(self, driver):
 
     assert teaserItems[0].is_displayed() == True
 
+    driver.implicitly_wait(100)
     srlItems = driver.find_elements_by_xpath("//*[@class='f_searchResult'and not(@style='display: none;')]")
     try:
         for WebElement in srlItems:
