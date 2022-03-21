@@ -4,6 +4,8 @@ from to_import import acceptConsent, sendEmail,URL_lm, setUp, tearDown
 import time
 from selenium.webdriver.support import expected_conditions as EC
 import unittest
+from FM_D import LM_FM_vypis_rozbalit_zajezd_check
+
 
 class TestLM_D(unittest.TestCase):
     def setUp(self):
@@ -42,32 +44,5 @@ class TestLM_D(unittest.TestCase):
             sendEmail(msg)
         assert zajezdyLMsingle.is_displayed() == True
 
-        try:
-            rozbal = self.driver.find_element_by_xpath("//*[@class='page-tour-cell page-tour-control']")
-            wait.until(EC.visibility_of(rozbal))
-            self.driver.execute_script("arguments[0].click();", rozbal)
-            time.sleep(2)
-
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = " Nepodarilo se rozbalit LM zajezd " + url
-            sendEmail(msg)
-
-        try:
-            rozbalenyZajezd = self.driver.find_element_by_xpath("//*[@class='page-tour-hotel-name']")
-            rozbalenyZajezdAll = self.driver.find_elements_by_xpath("//*[@class='page-tour-hotel-name']")
-            wait.until(EC.visibility_of(rozbalenyZajezd))
-            if rozbalenyZajezd.is_displayed():
-                for WebElement in rozbalenyZajezdAll:
-                    jdouvidet = WebElement.is_displayed()
-                    assert jdouvidet == True
-                    if jdouvidet == True:
-                        pass
-        except NoSuchElementException:
-            url = self.driver.current_url
-            msg = "Nenasel se zadny zajezd pri rozbaleni zajezdu v last minute " + url
-            sendEmail(msg)
-
-        assert rozbalenyZajezd.is_displayed() == True
-
+        LM_FM_vypis_rozbalit_zajezd_check(self, self.driver)
 
