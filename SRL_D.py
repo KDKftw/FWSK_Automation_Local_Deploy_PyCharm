@@ -5,10 +5,16 @@ from selenium.webdriver.support import expected_conditions as EC
 import unittest
 
 SRLhotelyKartyXpath = "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_searchResult-content-item']"
-SRLfotkyKarty = "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_tileGallery']"
+SRLfotkyKartyXpath = "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_tileGallery']"
+#SRLcenaKartyXpath = "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_price']"
+
+#SRLhotelyKartyXpath = "//*[@class='f_searchResult-content-item']"
+#SRLfotkyKartyXpath = "//*[@class='f_tileGallery']"
+SRLcenaKartyXpath = "//*[@class='f_price']"
+
 
 def SRL_D(self, driver):
-    wait = WebDriverWait(self.driver, 150)
+    wait = WebDriverWait(self.driver, 15)
     driver.implicitly_wait(100)
     hotelySingle = self.driver.find_element_by_xpath(SRLhotelyKartyXpath)
     try:
@@ -36,9 +42,9 @@ def SRL_D(self, driver):
     assert hotelySingle.is_displayed() == True
 
     try:
-        self.driver.implicitly_wait(100)
-        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKarty)  ##
-        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKarty)
+        self.driver.implicitly_wait(15)
+        fotkyAll = self.driver.find_elements_by_xpath(SRLfotkyKartyXpath)  ##
+        fotkaSingle = self.driver.find_element_by_xpath(SRLfotkyKartyXpath)
         wait.until(EC.visibility_of(fotkaSingle))
         ##print(fotkaSingle)
         if fotkaSingle.is_displayed():
@@ -71,10 +77,8 @@ def SRL_D(self, driver):
 
     try:
         self.driver.implicitly_wait(100)
-        cenaAll = self.driver.find_elements_by_xpath(
-            "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_price']")  ##
-        cenaSingle = self.driver.find_element_by_xpath(
-            "//*[@class='f_searchResult'and not(@style='display: none;')]//*[@class='f_price']")
+        cenaAll = self.driver.find_elements_by_xpath(SRLcenaKartyXpath)  ##
+        cenaSingle = self.driver.find_element_by_xpath(SRLcenaKartyXpath)
         wait.until(EC.visibility_of(cenaSingle))
         if cenaSingle.is_displayed():
             for WebElement in cenaAll:
