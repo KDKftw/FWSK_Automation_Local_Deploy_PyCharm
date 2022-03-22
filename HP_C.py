@@ -4,6 +4,7 @@ from to_import import acceptConsent, URL, setUp, tearDown
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 from groupsearch_D import groupSearch_D
+from SRL_D import SRL_D
 import time
 
 HPvyhledatZajezdyButtonXpath = "/html/body[@id='homepage']/header[@class='f_pageHeader js_header']/div[@class='f_pageHeader-content']/div[@class='f_pageHeader-item f_pageHeader-item--holder']/div/div[@class='f_filterMainSearch']/div/div[@class='f_filterMainSearch-content']/div[@class='f_filterMainSearch-content-item'][5]/a[@class='f_button f_button--common']/span[@class='f_button-text f_icon f_icon--chevronRight f_icon_set--right']"
@@ -55,5 +56,5 @@ class Test_HP_C(unittest.TestCase):
 
         time.sleep(1)
         wait.until(EC.visibility_of(self.driver.find_element_by_xpath(HPzlutakPotvrditAvyhledatXpath))).click()
-
-        time.sleep(20)
+        time.sleep(1)
+        SRL_D(self, self.driver)
