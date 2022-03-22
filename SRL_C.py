@@ -27,7 +27,7 @@ class Test_SRL_C(unittest.TestCase):
         cenaZajezduAllList = []                     ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []               ##second list takes the values too, then sorts it low to high
         time.sleep(2)
-        sortByCheapest = self.driver.find_element_by_xpath("//*[contains(text(), 'od nejlevnějšího')]")
+        sortByCheapest = self.driver.find_element_by_xpath("//*[contains(text(), 'od najlacnejšieho')]")
         wait.until(EC.visibility_of(sortByCheapest))
         sortByCheapest.click()
 
@@ -75,7 +75,7 @@ class Test_SRL_C(unittest.TestCase):
         cenaZajezduAllList = []  ##one list that takes prices from the srl
         cenaZajezduAllListSorted = []  ##second list takes the values too, then sorts it low to high
 
-        sortByMostExpensive = driver.find_element_by_xpath("//*[contains(text(), 'od nejdražšího')]")
+        sortByMostExpensive = driver.find_element_by_xpath("//*[contains(text(), 'od najdrahšieho')]")
         sortByMostExpensive.click()
 
         hotelyKarty = driver.find_element_by_xpath(
