@@ -7,10 +7,10 @@ from webdriver_manager.opera import OperaDriverManager
 
 
 URL = "https://www.fischer.sk/"
-URL_poznavacky = URL+"poznavaci-zajezdy/okruzni-a-kombinovane"
-URL_poznavacky_vikendy = URL+"poznavaci-zajezdy/prodlouzene-vikendy"
-URL_poznavacky_rodiny = URL+"poznavaci-zajezdy/pro-rodiny"
-URL_poznavacky_zazitky = URL+"poznavaci-zajezdy/zazitkove"
+URL_poznavacky = URL+"poznavacie-zajazdy/okruhy-a-kombinovane"
+URL_poznavacky_vikendy = URL+"poznavacie-zajazdy/predlzene-vikendy"
+URL_poznavacky_rodiny = URL+"poznavacie-zajazdy/pre-rodiny"
+URL_poznavacky_zazitky = URL+"poznavacie-zajazdy/zazitkove"
 URL_pobocky = URL+"kontakty/seznam-pobocek"
 URL_kluby = URL+"dovolena-animacni-kluby"
 #URL_detail = URL+"/recko/zakynthos/laganas/aktypis-deluxe-sk-7?DS=1&D=623|741|735|618|619|624|973|993|595|972|648|746|1126|1129|826|1225|1124|1128|1059|1118|1119|1121|625|1127|1125|861|1115|1132|1120|709|711|1117|603|1116|1130|1131|614|1123|1093|1198|1114|1122|620&HID=724764&MT=3&DI=1980&RT=22&NN=7&RD=2022-09-08&DD=2022-09-01&DP=483&TO=483|1837|2933|3437&MNN=7&TT=1&PID=ZAKDSSK7&DPR=Fischer&TTM=1&TOM=483|1837|2933|3437&DF=2022-09-01|2022-09-25&ERM=0&NNM=7|8|9|10|11|12|13&ac1=2&kc1=0&ic1=0"
@@ -26,7 +26,7 @@ URL_faq = URL+"faq"
 URL_lm = URL+"last-minute"
 URL_stat = URL+"spanelsko"
 URL_groupsearch = URL+"vysledky-vyhledavani?tt=1&to=4312|4305|2682|4308&dd=2022-07-01&rd=2022-08-31&nn=7|8|9|10|11|12|13&ic1=1&ac1=2"
-URL_FT_results = URL+"hledani-vysledky?q="
+URL_FT_results = URL+"hladanie-vysledky?q="
 import time
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import NoSuchElementException
