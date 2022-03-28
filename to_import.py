@@ -41,6 +41,7 @@ def setUp(self):
   #self.driver = webdriver.Edge(service=Service(EdgeChromiumDriverManager().install()))
   #self.driver = webdriver.Opera(executable_path=OperaDriverManager().install())
   #self.driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
+  generalDriverWaitImplicit(self.driver)
 
 def tearDown(self):
   self.driver.quit()
@@ -60,22 +61,29 @@ def sendEmail(msg):
   server.sendmail(fromx, to, msg.as_string())
   server.quit()
 
+def generalDriverWaitImplicit(driver):
+  driver.implicitly_wait(25)
+
+
 def acceptConsent(driver):
-  time.sleep(2)
+
+  generalDriverWaitImplicit(driver)
+  # time.sleep(5)
   try:
     element = driver.execute_script(
       """return document.querySelector('#usercentrics-root').shadowRoot.querySelector("button[data-testid='uc-accept-all-button']")""")
+    print(element)
   except NoSuchElementException:
-    return
+    print("NOSUCH")
+  except TimeoutException:
+    pass
 
-  except TimeoutException:
-    pass
-  try:
+  if element != None:
     element.click()
-  except TimeoutException:
+
+  else:
+    print("consent pass")
     pass
-  except NoSuchElementException:
-    return
 
 def closeExponeaBanner(driver):
     time.sleep(1.5)
