@@ -401,3 +401,138 @@
 2022-04-09 22:28:42.593117 : <selenium.webdriver.remote.webelement.WebElement (session="608a22a49a776b12921765cb8d3862e1", element="dd9b78bc-c5f8-4687-bc70-005177184a89")>
 2022-04-09 22:29:11.491850 : nenasle se exponea banner
 2022-04-09 22:29:48.187446 : actually OK
+2022-04-09 22:30:49.999221 : 
+                             
+                             
+2022-04-09 22:30:49.999221 : ====== WebDriver manager ======
+                             
+2022-04-09 22:30:50.024212 : Current google-chrome version is 100.0.4896
+                             
+2022-04-09 22:30:50.024212 : Get LATEST chromedriver version for 100.0.4896 google-chrome
+                             
+2022-04-09 22:30:50.105278 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+                             
+2022-04-09 22:30:58.301260 : <selenium.webdriver.remote.webelement.WebElement (session="4822b1e442f941765b01278804a71e90", element="8d96fb18-115d-425b-8db8-b5b94c1afe32")>
+2022-04-09 22:31:30.574049 : nenasle se exponea banner
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ok
+2022-04-09 22:31:38.414272 : ['All inclusive', 'All inclusive', 'All inclusive Plus', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive', 'All inclusive']
+2022-04-09 22:31:48.774670 : 
+                             
+                             
+2022-04-09 22:31:48.774670 : ====== WebDriver manager ======
+                             
+2022-04-09 22:31:48.885634 : Current google-chrome version is 100.0.4896
+                             
+2022-04-09 22:31:48.885634 : Get LATEST chromedriver version for 100.0.4896 google-chrome
+                             
+2022-04-09 22:31:48.949614 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+                             
+2022-04-09 22:31:55.607542 : <selenium.webdriver.remote.webelement.WebElement (session="24951fd9bc1cecb7f727706ef244f699", element="fdc454eb-027a-469b-9277-b55902d6c192")>
+2022-04-09 22:32:24.480896 : nenasle se exponea banner
+2022-04-09 22:32:24.514885 : |||||HOTEL CISLO|||||||
+2022-04-09 22:32:24.514885 : 1
+2022-04-09 22:32:24.514885 : 1
+2022-04-09 22:32:24.514885 : 1
+2022-04-09 22:32:56.326384 : nenasle se exponea banner
+2022-04-09 22:32:57.592601 : 636 €
+2022-04-09 22:32:57.592601 : pokoje sedi srl vs detail
+2022-04-09 22:32:57.592601 : stravy sedi srl vs detail
+2022-04-09 22:32:57.592601 : ceny all sedi srl vs detail
+2022-04-09 22:32:57.592601 :  cena adult sedi srl vs detail
+2022-04-09 22:32:57.606596 : 1
+2022-04-09 22:32:57.606596 : 2
+2022-04-09 22:32:57.606596 : |||||HOTEL CISLO|||||||
+2022-04-09 22:32:57.606596 : 2
+2022-04-09 22:32:57.606596 : 2
+2022-04-09 22:32:57.606596 : 2
+2022-04-09 22:33:28.023526 : nenasle se exponea banner
+2022-04-09 22:33:29.169358 : 624 €
+2022-04-09 22:33:29.169358 : pokoje sedi srl vs detail
+2022-04-09 22:33:29.169358 : stravy sedi srl vs detail
+2022-04-09 22:33:29.169358 : ceny all sedi srl vs detail
+2022-04-09 22:33:29.169358 :  cena adult sedi srl vs detail
+2022-04-09 22:33:29.188352 : 2
+2022-04-09 22:33:29.188352 : 3
+2022-04-09 22:33:29.188352 : |||||HOTEL CISLO|||||||
+2022-04-09 22:33:29.188352 : 3
+2022-04-09 22:33:29.188352 : 3
+2022-04-09 22:33:29.188352 : 3
+2022-04-09 22:33:59.332764 : nenasle se exponea banner
+2022-04-09 22:34:00.471475 : 628 €
+2022-04-09 22:34:00.471475 : pokoje sedi srl vs detail
+2022-04-09 22:34:00.471475 : stravy sedi srl vs detail
+2022-04-09 22:34:00.471475 : ceny all sedi srl vs detail
+2022-04-09 22:34:00.471475 :  cena adult sedi srl vs detail
+2022-04-09 22:34:00.485471 : 3
+2022-04-09 22:34:00.485471 : 4
+2022-04-09 22:34:00.485471 : |||||HOTEL CISLO|||||||
+2022-04-09 22:34:00.485471 : 4
+2022-04-09 22:34:00.485471 : 4
+2022-04-09 22:34:00.485471 : 4
+2022-04-09 22:34:30.267511 : nenasle se exponea banner
+2022-04-09 22:34:31.405917 : 732 €
+2022-04-09 22:34:31.405917 : pokoje sedi srl vs detail
+2022-04-09 22:34:31.405917 : stravy sedi srl vs detail
+2022-04-09 22:34:31.405917 : ceny all sedi srl vs detail
+2022-04-09 22:34:31.405917 :  cena adult sedi srl vs detail
+2022-04-09 22:34:31.430908 : 4
+2022-04-09 22:34:31.430908 : 5
+2022-04-09 22:34:31.430908 : |||||HOTEL CISLO|||||||
+2022-04-09 22:34:31.430908 : 5
+2022-04-09 22:34:31.430908 : 5
+2022-04-09 22:34:31.430908 : 5
+2022-04-09 22:35:01.076142 : nenasle se exponea banner
+2022-04-09 22:35:02.204444 : 740 €
+2022-04-09 22:35:02.204444 : pokoje sedi srl vs detail
+2022-04-09 22:35:02.204444 : stravy sedi srl vs detail
+2022-04-09 22:35:02.204444 : ceny all sedi srl vs detail
+2022-04-09 22:35:02.204444 :  cena adult sedi srl vs detail
+2022-04-09 22:35:02.222438 : 5
+2022-04-09 22:35:02.222438 : 6
+2022-04-09 22:35:02.222438 : |||||HOTEL CISLO|||||||
+2022-04-09 22:35:02.222438 : 6
+2022-04-09 22:35:02.222438 : 6
+2022-04-09 22:35:02.222438 : 6
+2022-04-09 22:35:31.581058 : nenasle se exponea banner
+2022-04-09 22:35:32.781143 : 796 €
+2022-04-09 22:35:32.781143 : pokoje sedi srl vs detail
+2022-04-09 22:35:32.781143 : stravy sedi srl vs detail
+2022-04-09 22:35:32.781143 : ceny all sedi srl vs detail
+2022-04-09 22:35:32.781143 :  cena adult sedi srl vs detail
+2022-04-09 22:35:32.860117 : 6
+2022-04-09 22:35:32.860117 : 7
+2022-04-09 22:35:32.860117 : |||||HOTEL CISLO|||||||
+2022-04-09 22:35:32.860117 : 7
+2022-04-09 22:35:32.860117 : 7
+2022-04-09 22:35:32.860117 : 7
+2022-04-09 22:35:41.471114 : 
+                             
+                             
+2022-04-09 22:35:41.471114 : ====== WebDriver manager ======
+                             
+2022-04-09 22:35:41.570082 : Current google-chrome version is 100.0.4896
+                             
+2022-04-09 22:35:41.570082 : Get LATEST chromedriver version for 100.0.4896 google-chrome
+                             
+2022-04-09 22:35:41.632063 : Driver [C:\Users\KDK\.wdm\drivers\chromedriver\win32\100.0.4896.60\chromedriver.exe] found in cache
+                             
+2022-04-09 22:35:49.026784 : <selenium.webdriver.remote.webelement.WebElement (session="805548e25b701172b7af0b2ff01145df", element="ef14d3a3-6b7b-4028-9b61-d521bbf7f1df")>
