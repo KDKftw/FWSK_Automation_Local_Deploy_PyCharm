@@ -25,13 +25,14 @@ class TestDetailHotelu_C(unittest.TestCase):
             pass
 
     def test_detail_fotka(self):
-
+        self.driver.maximize_window()
+        time.sleep(0.5)
         self.driver.get(URL_detail)
 
         acceptConsent(self.driver)
 
-        time.sleep(1)
-        closeExponeaBanner(self.driver)
+
+
 
         imageDetail = self.driver.find_element_by_xpath("//*[@id='gallery01Trigger']//img")
         imageDetailSrc = imageDetail.get_attribute("src")
@@ -66,12 +67,11 @@ class TestDetailHotelu_C(unittest.TestCase):
             except NoSuchElementException:
                 pass
 
+        self.driver.maximize_window()
+        time.sleep(0.5)
         self.driver.get(URL_detail)
         wait = WebDriverWait(self.driver, 150000)
         acceptConsent(self.driver)
-
-        time.sleep(1)
-        closeExponeaBanner(self.driver)
 
         try:
             terminyCeny = self.driver.find_element_by_xpath("//*[@id='terminyaceny-tab']")
@@ -185,13 +185,13 @@ class TestDetailHotelu_C(unittest.TestCase):
             except NoSuchElementException:
                 pass
 
-
+        self.driver.maximize_window()
+        time.sleep(0.5)
         self.driver.get(URL_detail)
 
         acceptConsent(self.driver)
 
-        time.sleep(1)
-        closeExponeaBanner(self.driver)
+
         wait = WebDriverWait(self.driver, 150000)
 
         try:

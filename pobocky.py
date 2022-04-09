@@ -12,11 +12,11 @@ class TestPobocky_D(unittest.TestCase):
 
 
     def test_pobocky_D(self):
+        self.driver.maximize_window()
+        time.sleep(0.5)
 
         self.driver.get(URL_pobocky)
         acceptConsent(self.driver)
-        self.driver.maximize_window()
-        time.sleep(2)
         mapa = self.driver.find_element_by_xpath("//*[@class='leaflet-pane leaflet-tile-pane']")    ## jen jeden element, no need to call find_elementS
 
         mapaDisplayed = mapa.is_displayed()
